@@ -15,7 +15,7 @@ app.get("/sound/:name", (req, res) => {
 	if (name == "dog") {
 		res.json({'sound': '멍멍'});
 	} else if (name == "cat") {
-		res.json({"sound": "야옹", 'img': 'https://pds.joins.com/news/component/htmlphoto_mmdata/201410/06/htm_20141006175655l400l401.jpg'});
+		res.json({"sound": "야옹"});
 	} else if (name == "pig") {
 		res.json({"sound": "꿀꿀"});
 	} else {
